@@ -1,0 +1,98 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.4010077978367414 0.13476024879295725 -0.9061083938577038 2.550423028108402
+  position 1.000064922664658 0.6898162376713197 1.1440078979070016
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.01 0 0
+  floorSize 4 4
+}
+E-puck {
+  hidden position_0_0 3.489030291065907e-10
+  hidden position_0_1 3.48894119281617e-10
+  translation 9.675806877547835e-11 0.18999999999999972 -6.396199578762203e-05
+  rotation 0.9999968074362265 -0.0025266461495941123 3.4301448958454224e-05 2.4388180214071665e-09
+  controller "wall_follower"
+}
+Wall {
+  translation 0.5 -0.73 0
+  rotation 0 0 1 -1.5707953071795862
+  size 1 0.01 0.1
+}
+Wall {
+  translation 0 0.28 0
+  name "wall(2)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation 0 -0.23 0
+  name "wall(3)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation 0.01 -1.23 0
+  name "wall(4)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation -0.49 -1.72 0
+  rotation 0 0 1 1.5708
+  name "wall(6)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation 0.52 0.71 0
+  name "wall(5)"
+  size 2 0.01 0.1
+}
+Wall {
+  translation 0.52 -1.73 0
+  name "wall(12)"
+  size 2 0.01 0.1
+}
+Wall {
+  translation 1.78 -0.5 0
+  name "wall(7)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation 1.48 -0.5 0
+  name "wall(9)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation 1.48 -0.9 0
+  name "wall(8)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation 0.98 0.2 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(1)"
+  size 1.4 0.01 0.1
+}
+Wall {
+  translation 0.98 -1.62 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(11)"
+  size 1.4 0.01 0.1
+}
+Wall {
+  translation -0.23 0.2 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(13)"
+  size 2.2 0.01 0.1
+}
